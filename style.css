@@ -14,8 +14,10 @@
     top: 20vh;
     right: 30vw;
 }
-.name:hover{
+.n:hover{
    color: red;
+   transform: 10rem ;
+
 }
 
 .post{
@@ -23,4 +25,12 @@
   position: relative;
   top: 20vh;
   right: 25vw;
+}
+
+.cards_container{
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
 }
